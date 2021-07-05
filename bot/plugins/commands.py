@@ -30,7 +30,7 @@ async def start(bot, update):
             await bot.send_document(
                 chat_id=update.chat.id,
                 document = file_id,
-                caption = caption,
+                caption = f"{file_name} \n @Turkish_Islamic_Media,
                 parse_mode="html",
                 reply_to_message_id=update.message_id,
                 reply_markup=InlineKeyboardMarkup(
@@ -90,7 +90,7 @@ async def start(bot, update):
 
     buttons = [[
         InlineKeyboardButton('ADBZ Turkish & Islamic Media', url='https://t.me/Turkish_Islamic_Media'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://https://github.com/AghinKhalidCP/Autofilterv2')
+        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/AghinKhalidCP/Autofilterv2')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/Sultan_AladdinKeyqubad')
     ],[
