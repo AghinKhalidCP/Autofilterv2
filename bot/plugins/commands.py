@@ -38,7 +38,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'ADBZ Turkish & Islamic Media', url="https://t.me/Turkish_Islamic_Media"
                                 )
                         ]
                     ]
@@ -57,7 +57,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'ADBZ Turkish & Islamic Media', url="https://t.me/Turkish_Islamic_Media"
                                 )
                         ]
                     ]
@@ -76,7 +76,7 @@ async def start(bot, update):
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    'ADBZ Turkish & Islamic Media', url="https://t.me/Turkish_Islamic_Media"
                                 )
                         ]
                     ]
@@ -89,10 +89,10 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
-        InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
+        InlineKeyboardButton('ADBZ Turkish & Islamic Media', url='https://t.me/Turkish_Islamic_Media'),
+        InlineKeyboardButton('Source Code 🧾', url ='https://https://github.com/AghinKhalidCP/Autofilterv2')
     ],[
-        InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
+        InlineKeyboardButton('Support 🛠', url='https://t.me/Sultan_AladdinKeyqubad')
     ],[
         InlineKeyboardButton('Help ⚙', callback_data="help")
     ]]
